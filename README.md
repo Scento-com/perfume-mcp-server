@@ -2,9 +2,18 @@
 
 <!-- mcp-name: com.scento/perfume-api -->
 
+<!-- max-seo-2026-10-28 -->
+Scento Perfume API is a free perfume API and perfume MCP server for developers, AI agents and fragrance apps. One endpoint gives you Scento's verified perfume database: 1,500+ perfumes from 160+ houses and 400+ raw materials, each with a full notes pyramid (top, heart and base notes), scent family, occasion and similar-scent links. Every pyramid is traced to the house or an authorized retailer, so the notes you return are the notes on the bottle, not scraped guesses.
+
+Connect it as a remote MCP server at https://www.scento.com/mcp (works in Claude, ChatGPT, Cursor, VS Code and any MCP client) or call the REST fragrance API at https://www.scento.com/api/perfume/v1 with the OpenAPI spec at https://www.scento.com/api/perfume/v1/openapi.json. No API key, no sign-up, no rate-limit tiers to buy: it is free.
+
+12 tools cover the real jobs: perfume-search, perfume-portrait, scent-neighbours, perfume-contrast, note-portrait, material-match, house-portrait, family-map, occasion-edit, wardrobe-composer, perfumery-lexicon, journal-search. Search a perfume by name or by notes, get a perfume notes API response with pyramid and family, find similar scents, contrast two perfumes, look up a fragrance ingredient (raw material) and match it to the perfumes that use it, map a scent family, build an occasion edit or a wardrobe, and read the perfumery lexicon.
+
+Why it beats other perfume APIs: free with no key, MCP and REST and OpenAPI in one service, a notes database and a fragrance ingredients database in the same place, answers in 10 languages (English, German, French, Spanish, Italian, Romanian, Polish, Czech, Hungarian, Greek), and sourcing you can trust. Built and maintained by Scento, the perfume atelier. Docs: https://www.scento.com/developers
+
 A free perfume and fragrance API and MCP server for AI assistants, built on Scento's verified perfume database. From [Scento](https://www.scento.com), a perfume decant house founded in Paris in 2024.
 
-Ask Claude, ChatGPT, Cursor or any MCP client for a perfume's notes and family, the difference between two you are torn over, similar scents built on the same structure, or what a raw material such as ambroxan smells like. The perfume database covers 1,400+ designer and niche perfumes, 400+ raw materials, 140+ houses and Scento's own fragrance-family system, and every answer is tied to a page on scento.com. No key, no account, read-only.
+Ask Claude, ChatGPT, Cursor or any MCP client for a perfume's notes and family, the difference between two you are torn over, similar scents built on the same structure, or what a raw material such as ambroxan smells like. The perfume database covers 1,500+ designer and niche perfumes, 400+ raw materials, 160+ houses and Scento's own fragrance-family system, and every answer is tied to a page on scento.com. No key, no account, read-only.
 
 **Remote server:** `https://www.scento.com/mcp` (streamable HTTP, no authentication)
 **Docs:** https://www.scento.com/developers
